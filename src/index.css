@@ -221,12 +221,28 @@
   width: 100%;
   border-radius: 30% 70% 33% 67% / 52% 30% 70% 48%;
   transition: .2s all linear;
-  z-index: 1;
 }
-.hover-ani:hover::after{
+.hover-ani:hover::after,.hover-circle:hover::after{
   scale: 1;
   /* color: #2a5ceb !important; */
 }
-.hover-ani:hover .hover-icon{
-  color: #2a5ceb !important;
+.hover-ani:hover .hover-icon , .hover-circle:hover .hover-icon{
+  color: white !important;
+  position: relative;
+  z-index: 99;
 }
+.hover-circle{
+  position: relative;
+}
+.hover-circle::after{
+  content: "";
+  scale: 0;
+  position: absolute;
+  background-color: #5d87ff;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  transition: .2s all linear;
+}
+
+
