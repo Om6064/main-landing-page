@@ -208,3 +208,25 @@
     display: none !important;
   }
 }
+.hover-ani{
+  position: relative;
+}
+
+.hover-ani::after{
+  content: "";
+  scale: 0;
+  position: absolute;
+  background-color: #5d87ff;
+  height: 100%;
+  width: 100%;
+  border-radius: 30% 70% 33% 67% / 52% 30% 70% 48%;
+  transition: .2s all linear;
+  z-index: 1;
+}
+.hover-ani:hover::after{
+  scale: 1;
+  /* color: #2a5ceb !important; */
+}
+.hover-ani:hover .hover-icon{
+  color: #2a5ceb !important;
+}
