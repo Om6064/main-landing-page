@@ -244,5 +244,8 @@
   border-radius: 50%;
   transition: .2s all linear;
 }
+.shadow1:focus{
+    box-shadow: none !important;
+}
 
 

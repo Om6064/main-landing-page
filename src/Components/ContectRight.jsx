@@ -10,27 +10,27 @@ const ContectRight = () => {
           {/* First Name */}
           <div className="col-md-6">
             <label htmlFor="firstName" className="form-label fw-semibold">First Name</label>
-            <input type="text" className="form-control" id="firstName" placeholder="Your first name..." required />
+            <input type="text" className="form-control shadow1" id="firstName" placeholder="Your first name..." required />
           </div>
           {/* Last Name */}
           <div className="col-md-6">
             <label htmlFor="lastName" className="form-label fw-semibold">Last Name</label>
-            <input type="text" className="form-control" id="lastName" placeholder="Last first name..." required />
+            <input type="text" className="form-control shadow1" id="lastName" placeholder="Last first name..." required />
           </div>
           {/* Email Address */}
           <div className="col-md-6">
             <label htmlFor="email" className="form-label fw-semibold">Email Address</label>
-            <input type="email" className="form-control" id="email" placeholder="Your email..." required />
+            <input type="email" className="form-control shadow1" id="email" placeholder="Your email..." required />
           </div>
           {/* Phone Number */}
           <div className="col-md-6">
             <label htmlFor="phone" className="form-label fw-semibold">Phone Number</label>
-            <input type="text" className="form-control" id="phone" placeholder="Type phone number..." required />
+            <input type="text" className="form-control shadow1" id="phone" placeholder="Type phone number..." required />
           </div>
           {/* Message */}
           <div className="col-12">
             <label htmlFor="message" className="form-label fw-semibold">Messages</label>
-            <textarea className="form-control" id="message" rows={4} placeholder="Type messages..." required defaultValue={""} />
+            <textarea className="form-control shadow1" id="message" rows={4} placeholder="Type messages..." required defaultValue={""} />
           </div>
           {/* Submit Button */}
           <div className="col-12">
