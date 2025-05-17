@@ -58,10 +58,7 @@ const Faq = () => {
         answer: "Yes, built-in analytics are included.",
       },
     ],
-    // You can add "manage", "integration", and "legal" here similarly...
   };
-
-  // Get current tab content
   const content = faqContent[activeTab];
 
   return (
@@ -71,7 +68,7 @@ const Faq = () => {
         <p className="mb-5 pb-3 text-center fs-4">Your Question Answer Here</p>
 
         <div className="row">
-         
+
           <div className="col-12 col-md-3 mb-4 mb-md-0">
             <ul className="list-unstyled text-center text-md-start">
               <li className={`mt-3 pointer ${activeTab === "general" ? "fw-bold" : ""}`} onClick={() => changeTab("general")}>General</li>
@@ -80,45 +77,45 @@ const Faq = () => {
             </ul>
           </div>
 
-          
+
           <div className="col-12 col-md-9">
             <div className="d-flex align-items-center mb-4">
               <i className="fa-solid fa-bars fs-2 text" />
               <span className="ms-3 fs-3 text-capitalize">{activeTab} Questions</span>
             </div>
 
-           
+
             <div className="d-flex justify-content-between align-items-center mt-4 fs-5 pointer" onClick={() => setShowAnswer1(!showAnswer1)}>
               <p className="m-0">{content[0].question}</p>
               <i className="fa-solid fa-caret-down" />
             </div>
-            {showAnswer1 && (
+            {showAnswer1 ? (
               <p style={{ fontSize: "16px", color: "gray" }} className="mt-2">
                 {content[0].answer}
               </p>
-            )}
+            ) : null}
 
-           
+
             <div className="d-flex justify-content-between align-items-center mt-4 fs-5 pointer" onClick={() => setShowAnswer2(!showAnswer2)}>
               <p className="m-0">{content[1].question}</p>
               <i className="fa-solid fa-caret-down" />
             </div>
-            {showAnswer2 && (
+            {showAnswer2 ? (
               <p style={{ fontSize: "16px", color: "gray" }} className="mt-2">
                 {content[1].answer}
               </p>
-            )}
+            ) : null}
 
-        
+
             <div className="d-flex justify-content-between align-items-center mt-4 fs-5 pointer" onClick={() => setShowAnswer3(!showAnswer3)}>
               <p className="m-0">{content[2].question}</p>
               <i className="fa-solid fa-caret-down" />
             </div>
-            {showAnswer3 && (
+            {showAnswer3 ? (
               <p style={{ fontSize: "16px", color: "gray" }} className="mt-2">
                 {content[2].answer}
               </p>
-            )}
+            ) : null}
           </div>
         </div>
       </div>
