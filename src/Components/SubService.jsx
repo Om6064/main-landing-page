@@ -4,7 +4,7 @@ const SubService = (props) => {
     return (
         <div>
             <div className={`${props.bgColor} rounded-circle icons d-flex align-items-center justify-content-center fs-2 fw-bold service-icon`}>
-                <i class={`${props.icon}`}></i>
+                <i class={`fs-2 ${props.icon}`}></i>
             </div>
 
             <p className='pt-4 fs-5 fw-semibold'>{props.title}</p>
