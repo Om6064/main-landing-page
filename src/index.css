@@ -247,5 +247,26 @@
 .shadow1:focus{
     box-shadow: none !important;
 }
+.gray-scale {
+  transition: 0.2s all linear;
+  cursor: pointer;
+}
+.gray-scale:hover {
+  filter: brightness(50%);
+}
+.hover-scale {
+  transition: all 0.2s linear;
+  overflow: hidden;
+}
+
+.hover-scale .card-img-top{
+  transition: transform 0.2s ease;
+}
+
+.hover-scale:hover .card-img-top{
+  transform: scale(1.05);
+}
+
+
 
 

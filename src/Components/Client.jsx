@@ -41,12 +41,12 @@ const Client = () => {
                     }
                 </div>
           
-                    <div className="d-flex align-items-center justify-content-center gap-3">
+                    <div className="d-flex pointer align-items-center justify-content-center gap-3">
                         <div className='circle border border-secondary rounded-circle d-flex align-items-center justify-content-center'>
                             <i className="bi bi-chevron-left fw-bold" />
 
                         </div>
-                        <div className='circle border border-secondary rounded-circle d-flex align-items-center justify-content-center'>
+                        <div className='circle pointer border border-secondary rounded-circle d-flex align-items-center justify-content-center'>
                             <i className="bi bi-chevron-right fw-bold" />
 
                         </div>

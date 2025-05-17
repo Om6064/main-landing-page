@@ -4,7 +4,7 @@ const Card2 = (props) => {
 
     return (
          <div className="col-md-6 col-xl-4 mb-4">
-            <div className="card" style={{ width: '100%' }}>
+            <div className="card hover-scale pointer" style={{ width: '100%' }}>
                 <img src={props.img} className="card-img-top" alt={props.title} />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>

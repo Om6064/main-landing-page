@@ -7,7 +7,7 @@ const Scard = (props) => {
         <div className="text-center" style={{ width: '18rem' }}>
           <div className="card-body  d-flex align-items-center justify-content-center flex-column">
             <div className='d-flex align-items-center justify-content-center'>
-              <h5 className="card-title hover-ani  fs-1 bor-red d-flex bg-color text-main align-items-center justify-content-center">
+              <h5 className="card-title pointer hover-ani  fs-1 bor-red d-flex bg-color text-main align-items-center justify-content-center">
                 <i className={`hover-icon ${props.icon}`}></i>
               </h5>
             </div>
