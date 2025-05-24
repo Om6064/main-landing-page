@@ -20,7 +20,7 @@ const Client = () => {
             degi: "August 3"
         },
         {
-            title: "Step by step guide for conducting usability",
+            title: "Step by step guide for conducting usability And More...",
             desc: "As I searched for inspiration to get started, I came across the captivating creations of Shane Griffin, an artist and director located in New York City...",
             pimg: "https://zoyothemes.com/tailwind/evea/assets/images/user/client-05.jpg",
             name: "Credon catla",
