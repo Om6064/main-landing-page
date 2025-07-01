@@ -19,7 +19,7 @@ A modern, responsive landing page built with **React** and reusable components.
 - React.js
 - HTML5 & JSX
 - CSS3
-- (Add any extra libraries if you used them, e.g., React Router, Styled Components, etc.)
+
 
 ## 🚀 How to Run Locally
 
